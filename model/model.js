@@ -28,7 +28,7 @@ const bookSchema = new mongoose.Schema({
   category: {
     type: [String],
   },
-  authorId: {
+  author: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Author",
   },
